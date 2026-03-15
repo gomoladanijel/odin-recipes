@@ -48,6 +48,25 @@ a {
     margin-bottom: 16px;
 }
 
+ol {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ol li {
+    list-style-position: inside;
+    padding: 16px;
+    width: 300px;
+    height: 400px;
+    border: 2px dashed #1b3a3b;
+    border-radius: 8px;
+}
+
+ol li:hover {
+    background-color: #eee
+}
+
 li {
     margin-left: 48px;
 }
